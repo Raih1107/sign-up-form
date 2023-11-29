@@ -24,18 +24,21 @@
       </div>
 
       <div class="form">
-        <form action="https://formspree.io/f/xeqbbavo" method="post">
+        <form action="https://formspree.io/f/xeqbbavo" method="post" class="sign-up-Form">
         <input type="text" name="Name" placeholder="First Name" required>
         <input type="text" name="Name" placeholder="Last Name" required>
         <input type="email" name="Email" placeholder="Email Address" required>
-        <input type="password" name="Password" placeholder="Password" required>
+        <div class="pass">
+          <input type="password" name="FirstPassword" placeholder="Password" id="password" required>
+          <i class="fas fa-eye-slash eye-icon" onclick="togglePasswordVisibility()"></i></div>
+        
         <button type="submit">CLAIM YOUR FREE TRIAL</button>
         <p class="terms"> <span class="light"> By clicking the button, you are agreeing to our</span> <span class="red">Terms and Services</span> /p>
         </form>
       </div>
     </div>
   </div>
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

@@ -4,6 +4,22 @@
     box-sizing: border-box;
 }
 
+.eye-icon {
+    /* position: absolute;
+    right: 250px;
+    top: 62%;
+    transform: translateY(-50%); */
+    cursor: pointer;
+    color: #808080; /* Eye icon color */
+}
+
+#password{
+    width: 90%;
+}
+.eye-icon:hover {
+    color: #000; /* Change color on hover */
+}
+
 body{
     background-image:url('images/bg-intro-desktop.png');
     background-color: rgb(224, 83, 65);
