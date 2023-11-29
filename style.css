@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#password{
+    height: 3.6em;
+}
 /* ... (your existing CSS) ... */
 
 .password-message {
@@ -169,6 +173,7 @@ button{
         height: 15%;
         font-size: 1rem;
     }
+    
 }
 
 @media(max-width:375px){
